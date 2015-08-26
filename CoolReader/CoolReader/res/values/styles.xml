@@ -1,0 +1,52 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <!-- 默认普通的margin -->
+    <style name="ui_normal_margin">
+        <item name="android:layout_marginLeft">@dimen/normal_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/normal_margin_right</item>	
+        <item name="android:layout_marginBottom">@dimen/normal_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/normal_margin_top</item>		
+    </style>
+    
+    
+    <!-- 默认eidttext背景 -->
+    <style name="default_edittext_bg" parent="">
+        <item name="android:layout_marginLeft">@dimen/normal_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/normal_margin_right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">36dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:background">@drawable/bg_edittext_selector</item>
+    </style>
+    
+    <!-- 默认蓝色按钮背景 -->
+    <style name="default_button_blue_bg" parent="@style/ui_normal_margin">
+        <item name="android:background">@drawable/bg_button_blue_selector</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>

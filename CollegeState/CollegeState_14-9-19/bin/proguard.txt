@@ -1,0 +1,81 @@
+# view res/layout/menu.xml #generated:15
+# view res/layout/shop.xml #generated:15
+# view res/layout/user_form.xml #generated:14
+-keep class android.support.v4.view.PagerTitleStrip { <init>(...); }
+
+# view res/layout/activity_guide_view.xml #generated:7
+# view res/layout/activity_main.xml #generated:21
+# view res/layout/menu.xml #generated:8
+# view res/layout/shop.xml #generated:8
+# view res/layout/user_form.xml #generated:8
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.CollegeState.BuyActivity.ChooseAreaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.CollegeState.BuyActivity.FancySelectFoodActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.CollegeState.BuyActivity.GrabMealActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.CollegeState.BuyActivity.GuideViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.CollegeState.BuyActivity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.CollegeState.BuyActivity.MainActivity$SchoolReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.CollegeState.BuyActivity.MenuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.CollegeState.BuyActivity.MoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.CollegeState.BuyActivity.MoreExpectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.CollegeState.BuyActivity.MySuggestionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.CollegeState.BuyActivity.SearchResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.CollegeState.BuyActivity.ShopActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.CollegeState.BuyActivity.ShoppingCartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.CollegeState.BuyActivity.StartActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.CollegeState.BuyActivity.UserRegisterActivity$SchoolDataReciver { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.CollegeState.CrashReport.CrashApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.CollegeState.UserActivity.MyWealthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.CollegeState.UserActivity.UserChangePasswdAcitvity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.CollegeState.UserActivity.UserLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.CollegeState.UserActivity.UserOrderFormActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.CollegeState.UserActivity.UserRegisterActivity { <init>(...); }
+
+# view res/layout/shopping_cart.xml #generated:13
+-keep class com.CollegeState.Widget.SwipeListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class org.androidpn.client.NotificationService { <init>(...); }
+

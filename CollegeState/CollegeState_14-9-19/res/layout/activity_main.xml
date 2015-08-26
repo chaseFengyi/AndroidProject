@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.CollegeState"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".UserRegisterActivity" >
+
+    <FrameLayout
+        android:id="@+id/fl_main_advist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_ad_main"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/ll_ad_main_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="right|bottom"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageButton
+                android:id="@+id/main_zhangshangcanting"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/zhangshangcanting" />
+
+            <ImageButton
+                android:id="@+id/main_woyaoqiangfan"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/woyaoqiangfan" />
+
+            <ImageButton
+                android:id="@+id/main_quweidingcan"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/quweidingcan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageButton
+                android:id="@+id/main_woyaotiaoci"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/woyaotiaoci" />
+
+            <ImageButton
+                android:id="@+id/main_dianhuadingcan"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/dianhuadingcan" />
+
+            <ImageButton
+                android:id="@+id/main_gengduoqidai"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/gengduoqidai"
+                android:scaleType="matrix" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.18"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <Button
+            android:id="@+id/main_today_recommendButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:background="@drawable/today_recommend"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/main_today_recommend"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/main_today_recommend_ButtonRight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <!-- 首页 -->
+
+        <Button
+            android:id="@+id/main_home"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/shouye_green" />
+
+        <!-- 餐店 -->
+
+        <Button
+            android:id="@+id/main_candian"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/candian_default" />
+
+        <!-- 购物车 -->
+
+        <Button
+            android:id="@+id/main_shopping_cart"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/gouwuche_default" />
+
+        <!-- 我的 -->
+
+        <Button
+            android:id="@+id/main_wode"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/wode_default" />
+    </LinearLayout>
+
+</LinearLayout>

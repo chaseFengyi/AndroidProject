@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_barpublish1" />
+
+    <ScrollView
+        android:id="@+id/activity_selectimg_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="110dp"
+                android:background="#eef1eff5" >
+
+                <HorizontalScrollView
+                    android:id="@+id/selectimg_horizontalScrollView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <GridView
+                            android:id="@+id/noScrollgridview"
+                            android:layout_width="fill_parent"
+                            android:layout_height="86dp"
+                            android:fastScrollEnabled="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:horizontalSpacing="0dp"
+                            android:scrollbars="none"
+                            android:scrollingCache="false"
+                            android:stretchMode="spacingWidthUniform"
+                            android:verticalSpacing="1dp" >
+                        </GridView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="物品名称"
+                    android:textColor="#008B8B"
+                    android:textSize="20dip" />
+
+                <EditText
+                    android:id="@+id/comment_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="你的物品名称"
+                    android:textColor="#6F6F6F"
+                    android:textColorHint="#b9b9b9" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="类别"
+                    android:textColor="#008B8B"
+                    android:textSize="20dip" />
+
+                <Spinner
+                    android:id="@+id/sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="宝贝描述"
+                    android:textColor="#008B8B"
+                    android:textSize="20dip" />
+
+                <EditText
+                    android:id="@+id/comment_describe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="快来介绍一下宝贝的信息吧！"
+                    android:textColor="#6F6F6F"
+                    android:textColorHint="#b9b9b9" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="价格"
+                    android:textColor="#008B8B"
+                    android:textSize="20dip" />
+
+                <EditText
+                    android:id="@+id/comment_price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:layout_margin="8dp"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="这个信息很重要哦！"
+                    android:textColor="#6F6F6F"
+                    android:textColorHint="#b9b9b9" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="联系方式"
+                    android:textColor="#008B8B"
+                    android:textSize="20dip" />
+
+                <EditText
+                    android:id="@+id/comment_connect"
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:layout_margin="8dp"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="这个信息很重要哦！"
+                    android:textColor="#6F6F6F"
+                    android:textColorHint="#b9b9b9" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/selectimg_relativeLayout_below"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#eef1eff5" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

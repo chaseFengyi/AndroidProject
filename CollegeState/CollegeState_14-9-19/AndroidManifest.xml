@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.CollegeState"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/> 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.CollegeState.CrashReport.CrashApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.CollegeState.BuyActivity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.ShopActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.UserActivity.UserLoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.UserActivity.UserRegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.FancySelectFoodActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.MoreExpectActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.MenuActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.SearchResultActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.MoreActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.ShoppingCartActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.MySuggestionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.GrabMealActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.StartActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.GuideViewActivity"
+            android:label="@string/title_activity_guide_view" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.UserActivity.UserOrderFormActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.UserActivity.MyWealthActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.UserActivity.UserChangePasswdAcitvity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.CollegeState.BuyActivity.ChooseAreaActivity"
+            android:label="@string/title_activity_choose_school" >
+        </activity>
+
+        <receiver android:name="com.CollegeState.BuyActivity.MainActivity$SchoolReceiver" >
+            <intent-filter>
+                <action android:name="com.ordering.message_changed" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="com.CollegeState.BuyActivity.UserRegisterActivity$SchoolDataReciver" >
+            <intent-filter>
+                <action android:name="com.ordering.school_user_reg" />
+            </intent-filter>
+        </receiver>
+        <!-- 推送服务 -->
+        <service android:enabled="true"
+			android:name="org.androidpn.client.NotificationService"
+			android:label="NotificationService">
+			<intent-filter>
+				<action android:name="org.androidpn.client.NotificationService" />
+			</intent-filter>
+		</service>
+    </application>
+
+</manifest>

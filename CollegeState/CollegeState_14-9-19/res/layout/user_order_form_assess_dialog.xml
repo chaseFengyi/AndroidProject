@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/user_order_form_assess_dialog_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/user_order_form_assess_dialog_good"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/user_order_form_assess_dialog_good" />
+
+        <RadioButton
+            android:id="@+id/user_order_form_assess_dialog_normal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/user_order_form_assess_dialog_normal" />
+
+        <RadioButton
+            android:id="@+id/user_order_form_assess_dialog_bad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/user_order_form_assess_dialog_bad" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/user_order_form_assess_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user_order_form_assess_dialog_content"
+        android:singleLine="false" />
+
+    
+</LinearLayout>

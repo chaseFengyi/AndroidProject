@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="fill_parent"
+        android:layout_height="47sp"
+        android:background="#05f"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/sortInformation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#05f"
+            android:paddingLeft="2sp"
+            android:text="@string/sortinformation"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner1"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/currentSort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28sp"
+            android:text="@string/currentsort"
+            android:textColor="#555"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/sortName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#555"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner2"
+        android:layout_marginTop="10sp"
+        android:background="#fff"
+        android:divider="#2fa" >
+    </ListView>
+
+</RelativeLayout>

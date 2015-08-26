@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/more_order"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/more_button"
+            android:gravity="center"
+            android:text="@string/more_my_order"
+            android:textColor="#6ACB17"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/more_change_passwd"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/more_button"
+            android:gravity="center"
+            android:text="@string/more_change_passwd"
+            android:textColor="#6ACB17"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/more_my_wealth"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/more_button"
+            android:gravity="center"
+            android:text="@string/more_my_wealth"
+            android:textColor="#6ACB17"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/more_check_for_updates"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/more_button"
+            android:gravity="center"
+            android:text="@string/more_check_for_updates"
+            android:textColor="#6ACB17"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/more_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/logout"
+        android:gravity="center"
+        android:text="@string/more_logout"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" />
+
+</RelativeLayout>

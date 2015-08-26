@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/flowerwhite"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/popuCameraTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blackline_garyboder"
+        android:text="@string/camera"
+        android:textColor="@color/deepskyblue"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/popuPhotoTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blackline_garyboder"
+        android:text="@string/photos"
+        android:textColor="@color/deepskyblue"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/popuExitTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blackline_garyboder"
+        android:text="@string/exit"
+        android:textColor="@color/deepskyblue"
+        android:textSize="24sp" />
+
+</LinearLayout>

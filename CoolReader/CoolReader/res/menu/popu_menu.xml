@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     
+    <item 
+        android:id="@+id/menu_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/edit"
+        android:showAsAction="ifRoom|withText"
+        android:textSize="22sp"
+        />
+     <item 
+        android:id="@+id/menu_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/refresh"
+        android:showAsAction="ifRoom|withText"
+        android:textSize="22sp"
+        />
+    <item 
+        android:id="@+id/menu_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/setting"
+        android:showAsAction="ifRoom|withText"
+        android:textSize="22sp"
+        />
+    <item 
+        android:id="@+id/menu_add_new_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/add_new_content"
+        android:textSize="22sp"
+        />
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sendlist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.example.sendlist.Login"
+            android:label="@string/app_name" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        <activity 
+            android:name="com.send.SendOrder"
+            android:label="@string/action_settings"
+            ></activity>
+        <activity 
+            android:name="com.get.GetOrder"
+            android:label="@string/account_num"
+            ></activity>
+        <activity 
+            android:name="com.example.sendlist.Logined"
+            android:label="@string/account_num"
+            android:launchMode="standard"></activity>
+        <activity 
+            android:name="com.get.SeeDetailsOfGet"
+            ></activity>
+        <activity 
+            android:name="com.example.sendlist.Register"
+            ></activity>
+        <activity 
+            android:name="com.send.SeeDetailsOfSend"></activity>
+    </application>
+
+</manifest>

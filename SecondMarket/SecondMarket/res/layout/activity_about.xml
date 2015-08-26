@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="fill_parent"
+        android:layout_height="47sp"
+        android:background="#05f"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#05f"
+            android:text="@string/about"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner1"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="25sp"
+        android:text="@string/developer"
+        android:textColor="#a2d"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_below="@+id/developer"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="5sp"
+        android:background="#fff"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/developerEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderset"
+            android:inputType="text" 
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/developdepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner2"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="10sp"
+        android:text="@string/developdepart"
+        android:textColor="#a2d"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_below="@+id/developdepart"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="5sp"
+        android:background="#fff"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/developdepartEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderset"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/serviceTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner3"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="10sp"
+        android:text="@string/servicetel"
+        android:textColor="#a2d"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/liner4"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_below="@+id/serviceTel"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="5sp"
+        android:background="#fff"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/serviceTelEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderset"
+            android:inputType="phone" />
+
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner4"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="10sp"
+        android:text="@string/email"
+        android:textColor="#a2d"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/liner5"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_below="@+id/email"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="5sp"
+        android:background="#fff"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/emailEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderset"
+            android:inputType="textEmailAddress|textEmailSubject" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 用户注册界面资源 -->
+    <string-array name="user_register_collageid_spinner">
+        <item>西安邮电大学</item>
+    </string-array>
+    <string-array name="user_register_apartid_spinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="shopping_dialog_in_shop_time">
+        <item>11:00&#8211;11:30</item>
+        <item>11:30&#8211;12:00</item>
+        <item>12:00&#8211;12:30</item>
+        <item>12:30&#8211;13:00</item>
+        <item>17:30&#8211;18:00</item>
+        <item>18:00&#8211;18:30</item>
+        <item>18:30&#8211;19:00</item>
+    </string-array>
+    <string-array name="shopping_dialog_pei_song_time">
+        <item>12:00&#8211;12:40</item>
+    </string-array>
+
+</resources>

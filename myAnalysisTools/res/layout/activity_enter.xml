@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EnterActivity"
+    android:background="#0cf"
+     >
+
+    <ImageView 
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:background="@drawable/ic_launcher"
+        />
+    <TextView 
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picture"
+        android:text="@string/welcomeText"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textScaleX="1"
+        android:textColor="#6fa"
+		android:shadowColor="#faa"
+		android:layout_centerInParent="true"
+        />
+    <Button 
+        android:id="@+id/clickEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeText"
+		android:text="@string/clickEnter"
+		android:gravity="center_vertical"
+        android:textSize="18sp"
+		android:textColor="#f66"
+		android:layout_centerInParent="true"
+    	android:background="#0cf"
+        />
+
+</RelativeLayout>

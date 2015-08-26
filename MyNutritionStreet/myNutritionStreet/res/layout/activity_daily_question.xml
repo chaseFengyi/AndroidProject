@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:id="@+id/relative_dailyquestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dailyQuestionBack"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_gravity="left|center"
+            android:background="@drawable/backbutton" />
+
+        <Button
+            android:id="@+id/dailyQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/daily_question"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/dailyQuestionLine"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/relative_dailyquestion"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/questionDailyQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dailyQuestionLine"
+        android:textColor="@color/dark"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+        android:id="@+id/realtive_daily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionDailyQuestion" >
+
+        <LinearLayout
+            android:id="@+id/linear_daily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/view1DailyQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/judgeAnswerDailyQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/gray"
+                android:textSize="18sp" >
+            </TextView>
+
+            <View
+                android:id="@+id/view2DailyQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/gray" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answerDailyQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_daily"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/answerDailyQuestion"
+            android:layout_marginTop="20sp"
+            android:background="@color/gray" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionDailyQuestion"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dailyRightBtn"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/deepskyblue"
+            android:text="@string/right" />
+
+        <Button
+            android:id="@+id/dailyErrorBtn"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/deeppinke"
+            android:text="@string/error" />
+    </LinearLayout>
+
+</RelativeLayout>

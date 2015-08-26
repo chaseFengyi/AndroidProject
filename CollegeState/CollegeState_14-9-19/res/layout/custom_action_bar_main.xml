@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:background="@drawable/title_background"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/main_login"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:text="登陆"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <SearchView
+        android:id="@+id/search_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/main_choose_school"
+        android:layout_toRightOf="@id/main_login"
+        android:iconifiedByDefault="true"
+        android:inputType="textFilter"
+        android:layoutMode="opticalBounds" >
+    </SearchView>
+
+    <Button
+        android:id="@+id/main_choose_school"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@color/nocolor"
+        android:text="选择学校"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

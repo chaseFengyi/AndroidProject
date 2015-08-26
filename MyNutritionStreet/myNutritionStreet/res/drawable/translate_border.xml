@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners 
+        android:radius="5dp"
+        />
+	<stroke 
+	    android:width="2sp"
+	    android:color="#00FF7F"
+	    />
+	<!-- android:startColor="#D8BFD8" 蓟 
+		 android:startColor="#DDA0DD" 李子
+		 android:endColor="#EE82EE"紫罗兰
+	 -->
+    <gradient 
+        android:startColor="#D8BFD8"
+        android:centerColor="#DDA0DD"
+        android:endColor="#EE82EE"
+        android:angle="90"
+        />
+    <padding 
+        android:left="5sp"
+        android:right="5dp"
+        android:top="10dp"
+        android:bottom="10dp"
+        />
+</shape>

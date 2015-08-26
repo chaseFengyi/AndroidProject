@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.secondmarket.load"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="com.secondmarket.information.CrashApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.secondmarket.load.LoadActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.secondmarket.information.MainPageActivity"></activity>
+        <activity android:name="com.secondmarket.information.SortDetailsActivity"></activity>
+        <activity android:name="com.secondmarket.information.SortInformationActivity"></activity>
+        <activity android:name="com.secondmarket.mine.MineActivity"></activity>
+        <activity android:name="com.secondmarket.information.myInfo.MyInformationActivity"></activity>
+        <activity android:name="com.secondmarket.publish.PhotoActivity"></activity>
+        <activity android:name="com.secondmarket.publish.PublishActivity"></activity>
+        <activity android:name="com.secondmarket.publish.PublishsuccActivity"></activity>
+        <activity android:name="com.secondmarket.collect.MyCollectionActivity"></activity>
+        <activity android:name="com.secondmarket.myRelease.MyReleaseActivity"></activity>
+        <activity android:name="com.secondmarket.about.AboutActivity"></activity>
+        <activity android:name="com.secondmarket.set.SetActivity"></activity>
+        <activity android:name="com.secondmarket.cleancache.CleanCacheActivity"></activity>
+        <activity android:name="com.secondmarket.check.CheckUpdateActivity"></activity>
+    </application>
+
+</manifest>

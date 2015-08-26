@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10sp"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginTop="10sp"
+    android:background="@color/lightblue" >
+
+    <TextView
+        android:id="@+id/notedetails_lists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/notedetails_line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/notedetails_lists"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notedetails_line"
+        android:layout_marginTop="20sp"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="评论内容:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/notedetails_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/notedetails_line"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:text="添加"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/notedetails_comtent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0cf" >
+
+
+    <Button 
+        android:id="@+id/backGrammer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textSize="24sp"
+        android:background="@color/moderateseagreen"
+        android:textColor="#000"
+        android:gravity="left|center"
+        />
+    
+    <Button 
+        android:id="@+id/openFileGrammer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonborder"
+        android:text="@string/openexisted"
+        android:gravity="center_horizontal|center"
+		android:layout_below="@+id/backGrammer"
+        />
+    
+    <Button 
+        android:id="@+id/editBySelfGrammer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonborder"
+        android:text="@string/openexiste"
+		android:layout_below="@+id/openFileGrammer"
+        android:gravity="center_horizontal|center"
+        />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+         >
+
+        <Button
+            android:id="@+id/lexicalAnalysisBtnGrammer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lexicalAnalyzer"
+            android:shadowColor="#a00"
+        	android:background="@color/moderateseagreen"/>
+
+        <Button
+            android:id="@+id/grammerAnalysisBtnGrammer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/grammerlAnalyzer"
+            android:background="@color/palecoral" />
+    </LinearLayout>
+
+</RelativeLayout>

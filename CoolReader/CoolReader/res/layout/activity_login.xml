@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context=".LoginActivity" >
+
+    <ImageView
+        android:id="@+id/loginLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/logo" />
+
+    <LinearLayout
+        android:id="@+id/unameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginLogo"
+        android:layout_marginTop="50sp"
+        android:orientation="horizontal" >
+
+        <!--
+             <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uname"/>
+        -->
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_name"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/upassLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unameLayout"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal" >
+
+        <!--
+             <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upass"/>
+        -->
+
+        <EditText
+            android:id="@+id/upass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_pass"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    
+      <CheckBox
+        android:id="@+id/ck_activity_login_is_auto_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/upassLayout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:text="自动登录"
+        android:textColor="@color/gray" />
+
+    <CheckBox
+        android:id="@+id/ck_activity_login_is_save_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/upassLayout"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:text="记住密码"
+        android:textColor="@color/gray" />
+    <!-- 登录、注册按钮 -->
+
+    <RelativeLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ck_activity_login_is_auto_login"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@color/azure"
+            android:text="@string/login"
+            android:textColor="#FF9DAA" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_toRightOf="@id/login_button"
+            android:background="@color/azure"
+            android:text="@string/register"
+            android:textColor="#17C8A8" />
+    </RelativeLayout>
+
+</RelativeLayout>

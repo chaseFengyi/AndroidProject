@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myAnalysisTools</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="welcomeText">欢迎使用“我的分析器”</string>
+	<string name="clickEnter">点击进入</string>
+	<string name="openexisted">从已存在的文件中打开</string>
+	<string name="openexiste">自&#160;&#160;&#160;己&#160;&#160;编&#160;&#160;&#160;写&#160;&#160;代&#160;&#160;码</string>
+    <string name="lexicalAnalyzer">词法分析器</string>
+    <string name="grammerlAnalyzer">语法分析器</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="determine">确定</string>
+    <string name="reset">重写</string>
+    <string name="edit">修改</string>
+
+</resources>

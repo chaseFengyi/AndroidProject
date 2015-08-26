@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="fill_parent"
+        android:layout_height="45sp"
+        android:background="#05f"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/myRelease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:background="#05f"
+            android:text="@string/myrelease"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/edit_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110sp"
+            android:background="#05f"
+            android:text="@string/edit"
+            android:textColor="#fff"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner1"
+        android:layout_marginTop="0sp"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listView_release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:divider="#ffa"
+            android:dividerHeight="2sp" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1sp"
+        android:layout_alignParentBottom="true"
+        android:divider="#aaa"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/allchoice_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/checkall"
+            android:textColor="#fa0"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/isDelete_release"
+            style="@style/MyCheckBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:textColor="#f10"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShoppingCartActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.88" >
+
+        <com.CollegeState.Widget.SwipeListView
+            android:id="@+id/ListViewShoppingCart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shopping_cart_listview_bg"
+            android:cacheColorHint="#00000000"
+            android:divider="#dddbdb"
+            android:dividerHeight="1dp" />
+
+        <RelativeLayout
+            android:id="@+id/menu_buttonMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="#f0f0f0"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ButtonShoppingCartSubmitAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/green_background"
+                android:text="@string/shopping_cart_order"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/shopping_cart_meal_bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <!-- 首页 -->
+
+        <Button
+            android:id="@+id/shopping_cart_meal_home"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/shouye_default" />
+
+        <!-- 餐店 -->
+
+        <Button
+            android:id="@+id/shopping_cart_meal_candian"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/candian_default" />
+
+        <!-- 购物车 -->
+
+        <Button
+            android:id="@+id/shopping_cart_meal_shopping_cart"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/gouwuche_green" />
+
+        <!-- 我的 -->
+
+        <Button
+            android:id="@+id/shopping_cart_meal_wode"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/wode_default" />
+    </LinearLayout>
+
+</LinearLayout>

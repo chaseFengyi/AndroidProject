@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+
+	<servlet>
+		<servlet-name>UserLoginCl</servlet-name>
+		<servlet-class>com.market.controller.UserLoginCl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UploadUserImageCl</servlet-name>
+		<servlet-class>com.market.controller.UploadUserImageCl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UploadGoodsInfoCl</servlet-name>
+		<servlet-class>com.market.controller.UploadGoodsInfoCl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UploadGoodsImageCl</servlet-name>
+		<servlet-class>com.market.controller.UploadGoodsImageCl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GoodsWantedCl</servlet-name>
+		<servlet-class>com.market.controller.GoodsWantedCl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DelGoodsCl</servlet-name>
+		<servlet-class>com.market.controller.DelGoodsCl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ClassifiedSearchCl</servlet-name>
+		<servlet-class>com.market.controller.ClassifiedSearchCl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>IndistinctSearchCl</servlet-name>
+		<servlet-class>com.market.controller.IndistinctSearchCl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViewLatestCl</servlet-name>
+		<servlet-class>com.market.controller.ViewLatestCl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserLoginCl</servlet-name>
+		<url-pattern>/userlogincl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadUserImageCl</servlet-name>
+		<url-pattern>/uploaduserimagecl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadGoodsInfoCl</servlet-name>
+		<url-pattern>/uploadgoodsinfocl</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>UploadGoodsImageCl</servlet-name>
+		<url-pattern>/uploadgoodsimagecl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GoodsWantedCl</servlet-name>
+		<url-pattern>/goodswantedcl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelGoodsCl</servlet-name>
+		<url-pattern>/delgoodscl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ClassifiedSearchCl</servlet-name>
+		<url-pattern>/classifiedsearchcl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>IndistinctSearchCl</servlet-name>
+		<url-pattern>/indistinctsearchcl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewLatestCl</servlet-name>
+		<url-pattern>/viewlatestcl</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPagerMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menu_buttonMenu"
+        android:layout_gravity="center" >
+
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/PagerTitleMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#FFFFFF"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+        </android.support.v4.view.PagerTitleStrip>
+    </android.support.v4.view.ViewPager>  
+
+    <RelativeLayout
+        android:id="@+id/menu_buttonMenu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/menu_bottom_layout"
+        android:layout_alignParentLeft="true"
+        android:background="#f0f0f0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/menu_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/green_background"
+            android:text="立即订餐"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+    
+    
+     <LinearLayout
+        android:id="@+id/menu_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <!-- 首页 -->
+
+        <Button
+            android:id="@+id/menu_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/shouye_default" />
+
+        <!-- 餐店 -->
+
+        <Button
+            android:id="@+id/menu_candian"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/candian_green" />
+
+        <!-- 购物车 -->
+
+        <Button
+            android:id="@+id/menu_shopping_cart"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/gouwuche_default" />
+
+        <!-- 我的 -->
+
+        <Button
+            android:id="@+id/menu_wode"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/wode_default" />
+    </LinearLayout>
+
+</RelativeLayout>

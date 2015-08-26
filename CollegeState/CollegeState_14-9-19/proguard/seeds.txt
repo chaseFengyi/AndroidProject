@@ -1,0 +1,125 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.FileProvider
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.ContentLoadingProgressBar
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout$LayoutParams
+android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.CollegeState.BuyActivity.ChooseAreaActivity
+com.CollegeState.BuyActivity.ChooseAreaActivity: ChooseAreaActivity()
+com.CollegeState.BuyActivity.FancySelectFoodActivity
+com.CollegeState.BuyActivity.FancySelectFoodActivity: FancySelectFoodActivity()
+com.CollegeState.BuyActivity.GrabMealActivity
+com.CollegeState.BuyActivity.GrabMealActivity: GrabMealActivity()
+com.CollegeState.BuyActivity.GuideViewActivity
+com.CollegeState.BuyActivity.GuideViewActivity: GuideViewActivity()
+com.CollegeState.BuyActivity.MainActivity
+com.CollegeState.BuyActivity.MainActivity: MainActivity()
+com.CollegeState.BuyActivity.MainActivity$SchoolReceiver
+com.CollegeState.BuyActivity.MainActivity$SchoolReceiver: MainActivity$SchoolReceiver()
+com.CollegeState.BuyActivity.MenuActivity
+com.CollegeState.BuyActivity.MenuActivity: MenuActivity()
+com.CollegeState.BuyActivity.MoreActivity
+com.CollegeState.BuyActivity.MoreActivity: MoreActivity()
+com.CollegeState.BuyActivity.MoreExpectActivity
+com.CollegeState.BuyActivity.MoreExpectActivity: MoreExpectActivity()
+com.CollegeState.BuyActivity.MySuggestionActivity
+com.CollegeState.BuyActivity.MySuggestionActivity: MySuggestionActivity()
+com.CollegeState.BuyActivity.SearchResultActivity
+com.CollegeState.BuyActivity.SearchResultActivity: SearchResultActivity()
+com.CollegeState.BuyActivity.ShopActivity
+com.CollegeState.BuyActivity.ShopActivity: ShopActivity()
+com.CollegeState.BuyActivity.ShoppingCartActivity
+com.CollegeState.BuyActivity.ShoppingCartActivity: ShoppingCartActivity()
+com.CollegeState.BuyActivity.StartActivity
+com.CollegeState.BuyActivity.StartActivity: StartActivity()
+com.CollegeState.CrashReport.CrashApplication
+com.CollegeState.CrashReport.CrashApplication: CrashApplication()
+com.CollegeState.MyView.AutoCompleteEmail
+com.CollegeState.MyView.AutoCompleteEmail: AutoCompleteEmail(android.content.Context,android.util.AttributeSet)
+com.CollegeState.UserActivity.MyWealthActivity
+com.CollegeState.UserActivity.MyWealthActivity: MyWealthActivity()
+com.CollegeState.UserActivity.UserChangePasswdAcitvity
+com.CollegeState.UserActivity.UserChangePasswdAcitvity: UserChangePasswdAcitvity()
+com.CollegeState.UserActivity.UserLoginActivity
+com.CollegeState.UserActivity.UserLoginActivity: UserLoginActivity()
+com.CollegeState.UserActivity.UserOrderFormActivity
+com.CollegeState.UserActivity.UserOrderFormActivity: UserOrderFormActivity()
+com.CollegeState.UserActivity.UserRegisterActivity
+com.CollegeState.UserActivity.UserRegisterActivity: UserRegisterActivity()
+com.CollegeState.Widget.SwipeListView
+com.CollegeState.Widget.SwipeListView: SwipeListView(android.content.Context)
+com.CollegeState.Widget.SwipeListView: SwipeListView(android.content.Context,android.util.AttributeSet)
+com.CollegeState.Widget.SwipeListView: SwipeListView(android.content.Context,android.util.AttributeSet,int)
+com.nostra13.universalimageloader.core.assist.FailReason$FailType: com.nostra13.universalimageloader.core.assist.FailReason$FailType[] values()
+com.nostra13.universalimageloader.core.assist.FailReason$FailType: com.nostra13.universalimageloader.core.assist.FailReason$FailType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.ImageScaleType: com.nostra13.universalimageloader.core.assist.ImageScaleType[] values()
+com.nostra13.universalimageloader.core.assist.ImageScaleType: com.nostra13.universalimageloader.core.assist.ImageScaleType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.LoadedFrom: com.nostra13.universalimageloader.core.assist.LoadedFrom[] values()
+com.nostra13.universalimageloader.core.assist.LoadedFrom: com.nostra13.universalimageloader.core.assist.LoadedFrom valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.QueueProcessingType: com.nostra13.universalimageloader.core.assist.QueueProcessingType[] values()
+com.nostra13.universalimageloader.core.assist.QueueProcessingType: com.nostra13.universalimageloader.core.assist.QueueProcessingType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.ViewScaleType: com.nostra13.universalimageloader.core.assist.ViewScaleType[] values()
+com.nostra13.universalimageloader.core.assist.ViewScaleType: com.nostra13.universalimageloader.core.assist.ViewScaleType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme: com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme[] values()
+com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme: com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme valueOf(java.lang.String)
+org.androidpn.client.ConnectivityReceiver
+org.androidpn.client.NotificationReceiver
+org.androidpn.client.NotificationService
+org.androidpn.client.NotificationService: NotificationService()
+org.jivesoftware.smack.ConnectionConfiguration$SecurityMode: org.jivesoftware.smack.ConnectionConfiguration$SecurityMode[] values()
+org.jivesoftware.smack.ConnectionConfiguration$SecurityMode: org.jivesoftware.smack.ConnectionConfiguration$SecurityMode valueOf(java.lang.String)
+org.jivesoftware.smack.Roster$SubscriptionMode: org.jivesoftware.smack.Roster$SubscriptionMode[] values()
+org.jivesoftware.smack.Roster$SubscriptionMode: org.jivesoftware.smack.Roster$SubscriptionMode valueOf(java.lang.String)
+org.jivesoftware.smack.packet.Message$Type: org.jivesoftware.smack.packet.Message$Type[] values()
+org.jivesoftware.smack.packet.Message$Type: org.jivesoftware.smack.packet.Message$Type valueOf(java.lang.String)
+org.jivesoftware.smack.packet.Presence$Mode: org.jivesoftware.smack.packet.Presence$Mode[] values()
+org.jivesoftware.smack.packet.Presence$Mode: org.jivesoftware.smack.packet.Presence$Mode valueOf(java.lang.String)
+org.jivesoftware.smack.packet.Presence$Type: org.jivesoftware.smack.packet.Presence$Type[] values()
+org.jivesoftware.smack.packet.Presence$Type: org.jivesoftware.smack.packet.Presence$Type valueOf(java.lang.String)
+org.jivesoftware.smack.packet.PrivacyItem$Type: org.jivesoftware.smack.packet.PrivacyItem$Type[] values()
+org.jivesoftware.smack.packet.PrivacyItem$Type: org.jivesoftware.smack.packet.PrivacyItem$Type valueOf(java.lang.String)
+org.jivesoftware.smack.packet.RosterPacket$ItemType: org.jivesoftware.smack.packet.RosterPacket$ItemType[] values()
+org.jivesoftware.smack.packet.RosterPacket$ItemType: org.jivesoftware.smack.packet.RosterPacket$ItemType valueOf(java.lang.String)
+org.jivesoftware.smack.packet.XMPPError$Type: org.jivesoftware.smack.packet.XMPPError$Type[] values()
+org.jivesoftware.smack.packet.XMPPError$Type: org.jivesoftware.smack.packet.XMPPError$Type valueOf(java.lang.String)
+org.jivesoftware.smack.proxy.ProxyInfo$ProxyType: org.jivesoftware.smack.proxy.ProxyInfo$ProxyType[] values()
+org.jivesoftware.smack.proxy.ProxyInfo$ProxyType: org.jivesoftware.smack.proxy.ProxyInfo$ProxyType valueOf(java.lang.String)

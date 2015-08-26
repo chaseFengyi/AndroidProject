@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0cf"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/moderateseagreen"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/moderateseagreen"
+            android:gravity="left|center"
+            android:text="@string/back"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:background="@color/moderateseagreen"
+            android:text="@string/save"
+            android:textColor="#000"
+            android:textSize="24sp"
+             />
+    </LinearLayout>
+    
+    <EditText 
+        android:id="@+id/inputProject"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/liner1"
+		android:inputType="textMultiLine|textUri"
+		android:singleLine="false"
+		android:gravity="left|top"
+		android:hint="请选择代码类型（c、c++、java等）然后输入代码"
+		android:layout_marginTop="20sp"
+        />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/determine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/singlebutton"
+            android:text="@string/determine" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/singlebutton"
+            android:text="@string/reset" />
+    </LinearLayout>
+
+</RelativeLayout>

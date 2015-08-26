@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo"/>	
+	
+    <LinearLayout 
+        android:id="@+id/ly_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/iv_logo"
+        android:orientation="horizontal">
+		<TextView 
+		    android:id="@+id/username"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="22sp"		    
+		    android:text="@string/username"/>
+		<EditText 
+		    android:id="@+id/et_username"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="text"
+			android:width="150dp"
+		 />        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ly_useremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_username"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+		<TextView 
+		    android:id="@+id/userpass"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="22sp"		    
+		    android:text="@string/email"/>
+		<EditText 
+		    android:id="@+id/et_userpass"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="text"
+			android:width="150dp"
+		 />        
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/changpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/bt_update_pass_selector"
+        android:layout_below="@id/ly_useremail"
+        android:text="@string/setting_edit_pass"/>
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="↓"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/btn_press"
+            />
+        <ImageButton
+            android:id="@+id/fancy_circle"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/fancy_circle"
+            android:clickable="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="今天吃"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ordering_eatWhat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="什么？？？"
+                android:textColor="#123456"
+                android:textSize="20sp" 
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/fancy_bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <!-- 首页 -->
+
+        <Button
+            android:id="@+id/fancy_home"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/shouye_default" />
+
+        <!-- 餐店 -->
+
+        <Button
+            android:id="@+id/fancy_candian"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/candian_default" />
+
+        <!-- 购物车 -->
+
+        <Button
+            android:id="@+id/fancy_shopping_cart"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/gouwuche_default" />
+
+        <!-- 我的 -->
+
+        <Button
+            android:id="@+id/fancy_wode"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/wode_default" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0cf"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/backExisted"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/moderateseagreen"
+        android:gravity="left|center"
+        android:text="@string/back"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <RelativeLayout 
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView 
+            android:id="@+id/path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            />
+        <TextView 
+            android:id="@+id/item_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#09c"
+        />
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ListView 
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none"
+            android:cacheColorHint="#add8e6"
+            ></ListView>
+    </LinearLayout>
+
+</LinearLayout>

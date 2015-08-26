@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_back" >
+
+    <include
+        android:id="@+id/top_bar_activity_user_info"
+        layout="@layout/top_action" />
+
+    <ScrollView
+        android:id="@+id/sl_activity_user_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_bar_activity_user_info"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="昵    称 : "
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_activity_user_ionf_username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:hint="昵称"
+                    android:padding="5dip"
+                    android:singleLine="true"
+                    android:textColor="#555555"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="邮    箱 : "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/et_activity_user_ionf_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp"
+                    android:padding="5dip"
+                    android:singleLine="true"
+                    android:textColor="#555555"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="性    别 : "
+                    android:textSize="15sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg_activity_user_info_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_activity_user_info_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:tag="0"
+                        android:text="男" />
+
+                    <RadioButton
+                        android:id="@+id/rb_activity_user_info_Female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:tag="1"
+                        android:text="女" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="电    话 : "
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_activity_user_ionf_tel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:hint="电话"
+                    android:padding="5dip"
+                    android:singleLine="true"
+                    android:textColor="#555555"
+                    android:textColorHint="#AAAAAA"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="职    业 : "
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_activity_user_ionf_career"
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:hint="职业"
+                    android:padding="5dip"
+                    android:singleLine="true"
+                    android:textColor="#555555"
+                    android:textColorHint="#AAAAAA"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="学    校 : "
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_activity_user_ionf_edu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:hint="学校"
+                    android:padding="5dip"
+                    android:singleLine="true"
+                    android:textColor="#555555"
+                    android:textColorHint="#AAAAAA"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/ck_activity_user_info_sharenote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:checked="true"
+                    android:text="分享笔记"
+                    android:textColor="#555555"
+                    android:textSize="15dp" />
+
+                <CheckBox
+                    android:id="@+id/ck_activity_user_info_shareread"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/ck_activity_user_info_sharenote"
+                    android:checked="true"
+                    android:text="分享阅读"
+                    android:textColor="#555555"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="top"
+                    android:text="个人简介 : "
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_activity_user_ionf_desc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/bg_edittext_selector"
+                    android:gravity="top"
+                    android:padding="5dip"
+                    android:textColor="#555555"
+                    android:textSize="15dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bt_activity_user_info_changeinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sl_activity_user_info"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bt_activity_login_selector"
+        android:text="确认修改"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

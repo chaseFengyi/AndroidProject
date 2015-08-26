@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:contentDescription="@drawable/exit"
+        android:src="@drawable/exit" />
+
+    <Button
+        android:id="@+id/getOrder"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="#222"
+        android:text="@string/get"
+        android:textColor="#ea0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:rotation="-3"
+        android:shadowRadius="9"
+        android:shadowColor="#0ff"/>
+
+    <Button
+        android:id="@+id/sendOrder"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_alignLeft="@+id/getOrder"
+        android:layout_below="@+id/getOrder"
+        android:layout_marginTop="40dp"
+        android:background="#222"
+        android:text="@string/send"
+        android:textColor="#ea0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:rotation="-3"
+        android:shadowRadius="9"
+        android:shadowColor="#0ff" />
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:src="@drawable/daimeng"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@drawable/daimeng"
+        />
+
+</RelativeLayout>
